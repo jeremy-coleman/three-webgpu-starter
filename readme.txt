@@ -7,9 +7,23 @@ cool
 
 electron 14 will have webgpu, so whenever thats available not under a nightly build, switch to that
 
+electron flags
+https://www.electronjs.org/docs/api/command-line-switches
+NOTE: the chrome --js-flags are hoisted into a key "js-flags" that you use as a app.commandLineSwitch
+
+chrome flags
 http://www.chromium.org/developers/how-tos/run-chromium-with-flags#TOC-V8-Flags
-get chrome flags
 chrome.exe --js-flags="--help"
 
 nodejs flags
 https://nodejs.org/api/cli.html
+
+node --help
+node --v8-options
+
+cg specific flags
+--force_high_performance_gpu
+Force using discrete GPU when there are multiple GPUs available.
+
+--force_low_power_gpu
+Force using integrated GPU when there are multiple GPUs available.
