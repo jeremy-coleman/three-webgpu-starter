@@ -15,9 +15,14 @@ chrome flags
 http://www.chromium.org/developers/how-tos/run-chromium-with-flags#TOC-V8-Flags
 chrome.exe --js-flags="--help"
 
+chromium flags
+https://www.chromium.org/developers/how-tos/run-chromium-with-flags
+https://peter.sh/experiments/chromium-command-line-switches/
+control F for vulkan , dawn, angle .
+You can also use open gl 3
+
 nodejs flags
 https://nodejs.org/api/cli.html
-
 node --help
 node --v8-options
 
@@ -27,3 +32,6 @@ Force using discrete GPU when there are multiple GPUs available.
 
 --force_low_power_gpu
 Force using integrated GPU when there are multiple GPUs available.
+
+very useful background info, especially anatomy of a browser and the mojo talks
+https://www.youtube.com/playlist?list=PLNYkxOF6rcICgS7eFJrGDhMBwWtdTgzpx
