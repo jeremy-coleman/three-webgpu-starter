@@ -18,8 +18,7 @@ chrome.exe --js-flags="--help"
 chromium flags
 https://www.chromium.org/developers/how-tos/run-chromium-with-flags
 https://peter.sh/experiments/chromium-command-line-switches/
-control F for vulkan , dawn, angle .
-You can also use open gl 3
+control F for vulkan , dawn, angle
 
 nodejs flags
 https://nodejs.org/api/cli.html
