@@ -5,11 +5,10 @@
   "license": "MIT",
   "main": "start-desktop.js",
   "scripts": {
-    "start": "electron-forge start"
+    "start": "electron ."
   },
   "devDependencies": {
     "servor":"4.0.2",
-    "electron-nightly":"15.0.0-nightly.20210611",
-    "@electron-forge/cli": "6.0.0-beta.57"
+    "electron":"14.0.0-beta.6"
   }
 }
