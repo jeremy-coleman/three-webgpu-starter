@@ -7,6 +7,9 @@ cool
 
 electron 14 will have webgpu, so whenever thats available not under a nightly build, switch to that
 
+increasing cpu memory 
+https://stackoverflow.com/questions/17491022/max-memory-usage-of-a-chrome-process-tab-how-do-i-increase-it#:~:text=By%20default%20v8%20has%20a,4GB)%20on%2064%2Dbit.
+
 electron flags
 https://www.electronjs.org/docs/api/command-line-switches
 NOTE: the chrome --js-flags are hoisted into a key "js-flags" that you use as a app.commandLineSwitch
