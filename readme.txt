@@ -1,3 +1,12 @@
+last updated:
+Feb 13 2023
+three dev version after 149
+
+
+
+webgpu has breaking changes all the time
+
+
 - live reloads
 - import map configured in src/client/index.html so you can bare import three/whatever else
 

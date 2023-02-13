@@ -3,12 +3,18 @@
   "private": true,
   "version": "1.0.0",
   "license": "MIT",
-  "main": "start-desktop.js",
+  "main": "src/electron/main.js",
   "scripts": {
-    "start": "electron ."
+    "start":"electron-forge start",
+    "start1": "electron ."
   },
   "devDependencies": {
+    "sucrase":"3.29.0",
+    "@electron-forge/cli":"6.0.5",
+    "@babylonjs/core":"5.46.0",
+    "three":"0.149.0",
+    "preact":"10.12.1",
     "servor":"4.0.2",
-    "electron":"14.0.0-beta.6"
+    "electron":"23.0.0"
   }
 }
